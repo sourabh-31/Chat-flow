@@ -28,4 +28,4 @@ npm run dev
 
 ## Hosted on Vercel
 
-[text](https://bitespeed-frontend-task-bysourabh.vercel.app/)
+[bitespeed-frontend-task-bysourabh.vercel.app](https://bitespeed-frontend-task-bysourabh.vercel.app/)
