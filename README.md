@@ -25,7 +25,3 @@ npm run dev
 2. Index.css contains all global styling.
 
 3. Used React-icons for rendering icons and React-hot-toast for notifications.
-
-## Hosted on Vercel
-
-[bitespeed-frontend-task-bysourabh.vercel.app](https://bitespeed-frontend-task-bysourabh.vercel.app/)
