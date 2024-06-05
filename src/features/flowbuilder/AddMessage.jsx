@@ -47,7 +47,7 @@ function AddMessage() {
         <button className="ml-6" onClick={handleReset}>
           <FaArrowLeft />
         </button>
-        <p className="-ml-8 font-bold text-sm">Drag & Drop</p>
+        <p className="-ml-8 font-bold text-sm">Message</p>
         <div />
       </header>
 

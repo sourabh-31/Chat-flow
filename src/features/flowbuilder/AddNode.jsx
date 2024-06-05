@@ -9,7 +9,7 @@ function AddNode({ handleDragStart }) {
       onDragStart={handleDragStart}
     >
       <BiSolidMessageRoundedDetail size={18} />
-      <p>Message</p>
+      <p>Drag & Drop</p>
     </button>
   );
 }
