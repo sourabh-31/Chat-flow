@@ -1,16 +1,18 @@
 import { Toaster } from "react-hot-toast";
 import { FlowProvider } from "./context/FlowContext";
-import FlowPage from "./pages/FlowPage";
+import FlowBuilderPage from "./pages/FlowBuilderPage";
 
-//many more pages can be added here and then we can use react-router-dom to route the pages
+// Main App component
 function App() {
   return (
     <div className="h-screen">
+      {/* Flow context provider */}
       <FlowProvider>
-        <FlowPage />
+        {/* Flow builder page */}
+        <FlowBuilderPage />
       </FlowProvider>
 
-      {/* customizing toast notification */}
+      {/* Customized toast notification */}
       <Toaster
         position="top-center"
         gutter={12}

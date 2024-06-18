@@ -1,8 +1,12 @@
 import { BiSolidMessageRoundedDetail } from "react-icons/bi";
+import { useDragAndDrop } from "../../hooks/useDragAndDrop";
 
-//this is the add button, when dragged on the canvas a new message will be created
-function AddNode({ handleDragStart }) {
+// Component for rendering the node panel button
+function NodesPanel() {
+  const { handleDragStart } = useDragAndDrop(null);
+
   return (
+    // Draggable button for creating new nodes
     <button
       className="text-[#648ee7] text-xs font-bold bg-white py-3 px-6 border border-[#648ee7] rounded flex flex-col items-center ml-4"
       draggable
@@ -14,4 +18,4 @@ function AddNode({ handleDragStart }) {
   );
 }
 
-export default AddNode;
+export default NodesPanel;
